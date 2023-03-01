@@ -1,0 +1,47 @@
+.App {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.Weather {
+  border: 1px solid #dadde1;
+  padding: 20px;
+  border-radius: 5px;
+  background-image: url("../images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overview {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.weather-temperature img {
+  position: relative;
+  margin-left: -10px;
+  bottom: 25px;
+  width: 100px;
+}
+.weather-temperature .temperature {
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  bottom: 10px;
+}
+.weather-temperature .units {
+  position: relative;
+  bottom: 36px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: default;
+}
+.weather-elements {
+  position: relative;
+  bottom: -10px;
+  font-size: 16px;
+}
+.description {
+  margin-left: -30px;
+}
+ul {
+  list-style: none;
+}

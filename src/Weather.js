@@ -44,7 +44,7 @@ export default function Weather() {
       <div className="row">
         <div className="col-6">
           <div className="weather-temperature">
-            <img src={weatherData.imgUrl} className="icon" />
+            <img src={weatherData.imgUrl} className="icon" alt="weather icon" />
             <span className="temperature">{weatherData.temperature}</span>
             <span className="units"> °C | °F </span>
           </div>

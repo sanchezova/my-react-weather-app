@@ -11,7 +11,7 @@ function App() {
       <footer>
         <p>
           This project is coded by Ivana Pichova and is{" "}
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
             open-sourced on Github
           </a>
         </p>
